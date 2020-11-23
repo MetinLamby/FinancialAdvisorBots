@@ -1,2 +1,99 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container-fluid banner-container">
+  <div class="row">
+    <div class="col-12 col-lg-6 text-box-banner">
+      <div class="banner-text">
+        <h1>Forget Everything You Know About Financial Advisors</h1>
+        <p>Valuable principles. Free advice. Big opportunity to grow.</p>
+        <a class="button-banner" href="#introduction">Check out our Afros</a>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 banner-img">
+      <%= render "svg-squad.svg" %>
+      <h1 style="visibility: hidden;">Forget Everything You Know About Financial Advisors</h1>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div id="introduction">
+  <h3 class="div-header">Here are our advisors</h3>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <%= link_to increaseCapital_path do %>
+        <div class="card">
+          <div class="card-img img-Antonio">
+            <p style="visibility: hidden;">test</p>
+          </div>
+          <div class="card-desc">
+            <div class="header-card-desc">
+              <h2>Antonio Robbinson</h2>
+            </div>
+            <div class="para-card-desc">
+              <p>Antonio will teach you how to <strong>increase your investment capital</strong>. Just text him to get started.</p>
+            </div>
+            <div class="button-container">
+              <div class="advisor-btn">
+                <p>Have a chat</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <% end %>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <%= link_to increaseCapital_path do %>
+        <div class="card">
+          <div class="card-img img-Anton">
+            <p style="visibility: hidden;">test</p>
+          </div>
+          <div class="card-desc">
+            <div class="header-card-desc">
+              <h2>Anton Robbinson</h2>
+            </div>
+            <div class="para-card-desc">
+              <p>Antonio will teach you how to <strong>increase your investment capital</strong>. Just text him to get started.</p>
+            </div>
+            <div class="button-container">
+              <div class="advisor-btn">
+                <p>Have a chat</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <% end %>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <%= link_to increaseCapital_path do %>
+        <div class="card">
+          <div class="card-img img-Antonella">
+            <p style="visibility: hidden;">test</p>
+          </div>
+          <div class="card-desc">
+            <div class="header-card-desc">
+              <h2>Antonella Robbinson</h2>
+            </div>
+            <div class="para-card-desc">
+              <p>Antonio will teach you how to <strong>increase your investment capital</strong>. Just text him to get started.</p>
+            </div>
+            <div class="button-container">
+              <div class="advisor-btn">
+                <p>Have a chat</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <% end %>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+

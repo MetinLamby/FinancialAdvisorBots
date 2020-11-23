@@ -1,2 +1,28 @@
 // Import page-specific CSS files here.
 @import "home";
+@import "increaseCapital";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin-top: 60px;
+    background: white;
+}
+
+h1 {
+  font-family: Merriweather, Georgia, serif;
+}
+
+a:hover {
+  text-decoration:none;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+.container {
+  margin-bottom: 30px;
+}

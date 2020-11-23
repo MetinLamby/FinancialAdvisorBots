@@ -1,1 +1,18 @@
 // Specific CSS for your home-page
+
+#introduction {
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .div-header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  a {
+    color: black;
+    width: 100%;
+  }
+}
