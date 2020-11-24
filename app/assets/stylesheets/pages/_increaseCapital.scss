@@ -1,36 +1,7 @@
 .page-container-two {
-  height: 85vh;
-  .lecture-content {
-    padding: 50px;
-  }
   .page-container {
-    position: relative;
-    padding-top: 50px;
-    .chat-person-name {
-      h2 {
-        text-align: left;
-        font-weight: bold;
-      }
-    }
-    .chat-person {
-      position: absolute;
-      left: 0px;
-      bottom: 0px;
+    .chat-person-antonio {
       background-image: asset-url('antonioRobbinson.png');
-      background-repeat: no-repeat;
-      background-size: contain;
-      height: 80%;
-      width: 100%;
-    }
-  }
-  .chat-container {
-    padding: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    h3 {
-      text-align: center;
-      text-decoration: underline;
     }
   }
 }

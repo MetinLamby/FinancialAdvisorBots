@@ -1,6 +1,9 @@
 // Import page-specific CSS files here.
 @import "home";
+@import "chatPage";
+@import "differenceAssetLiability";
 @import "increaseCapital";
+@import "diversification";
 html {
   scroll-behavior: smooth;
 }
